@@ -174,7 +174,7 @@
 .homepage_container {
     padding: 25px 24px 16px 24px;
     margin: 5px 16px 35px 16px;
-    background-image: url(images/triangles.jpg);
+    background-image: url('../images/triangles.jpg');
     background-size: 500px 300px;
     width: 320px;
     text-align: center;
