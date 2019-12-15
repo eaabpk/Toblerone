@@ -1,0 +1,736 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    z-index: 1000;
+}
+
+.tobleronenav_link {
+    display: block;
+    font-weight: bold;
+    color: #614627;
+    background: #F2C94C;
+    text-align: center;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 7px;
+    border: 1px solid #614627;
+    border-radius: 5px;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.nav_link {
+    display: block;
+    color: #614627;
+    text-align: center;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: white;
+    text-align: left;
+    padding: 13px;
+    text-decoration: none;
+}
+
+/* I put different links for the mobile menu in order to change the background color */
+.mobile_link {
+    display: block;
+    color: #614627;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    background-color: white;
+    text-align: left;
+    border-bottom: 1px solid #F2C94C;
+    padding: 13px;
+    text-decoration: none;
+}
+
+.mobiletoblerone_link {
+    display: block;
+    color: #614627;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    background-color: #F2C94C;
+    text-align: left;
+    border-bottom: 1px solid #F2C94C;
+    padding: 13px;
+    text-decoration: none;
+}
+
+.navigation_container {
+    background-color: white;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    height: 70px;
+}
+
+.menu {
+    list-style: none;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.menu_item {
+    font-size: 12px;
+    padding: 5px 5px 5px 20px;
+}
+
+.logo {
+    color: white;
+    width: 100px;
+    text-align: center;
+}
+
+.logo_image {
+
+    text-align: center;
+    display: block;
+}
+
+/*Styling the AD section*/
+
+.ad_container {
+    position: relative;
+    width: 100%;
+    padding-top: 70px;
+}
+
+.ad_image {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #d05c29;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.ad_container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    line-height: 2;
+    font-family: Montserrat;
+    border-bottom: 5px solid #F2C94C;
+    padding-bottom: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+/*Competition styling*/
+.details_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 35px 0;
+}
+
+
+.homepage_container {
+    padding: 25px 24px 16px 24px;
+    margin: 5px 16px 35px 16px;
+    background-image: url(/images/triangles.jpg);
+    background-size: 500px 300px;
+    width: 320px;
+    text-align: center;
+    line-height: 2;
+    display: inline-block;
+    border: 1px solid #F2C94C;
+
+}
+
+
+.homepage_image {
+    width: 90%;
+}
+
+.homepage_button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #F2C94C;
+    cursor: pointer;
+    color: #614627;
+    border-radius: 7px;
+}
+
+.homepage_button:hover {
+    background-color: #fff;
+    color: #614627;
+    border: 1px solid #614627;
+    transition: all .2s ease-out;
+}
+
+
+.active_button {
+    color: #614627;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 500;
+
+}
+
+
+.home_section {
+    background: white;
+}
+
+.subheading_text {
+    color: #614627;
+    text-transform: uppercase;
+    font-family: Montserrat;
+}
+
+.heading_text {
+    color: #614627;
+    font-size: 24px;
+    font-family: Montserrat;
+    padding-bottom: 12px;
+}
+
+.homepage_text {
+    font-size: 16px;
+    font-family: Montserrat;
+    color: #614627;
+    padding: 12px 12px;
+
+}
+
+/*Styling the Gift box */
+
+.gift_image {
+    width: 100%;
+}
+
+
+.gift_container {
+    padding: 25px 24px 16px 24px;
+    margin: 5px 16px 0 16px;
+    background: #614627;
+    width: 320px;
+    text-align: center;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.addyourmessage_text {
+    font-size: 16px;
+    font-family: Montserrat;
+    color: white;
+    padding: 12px 12px;
+
+}
+
+.gift_text {
+    color: #F2C94C;
+    font-size: 24px;
+    font-family: Montserrat;
+    padding-bottom: 12px;
+    background: #614627;
+    padding-top: 5px;
+}
+
+
+.getstarted_button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #AB8558;
+    cursor: pointer;
+    color: #614627;
+    border-radius: 7px;
+    font-weight: bold;
+
+}
+
+.details2_container {
+    margin-bottom: 45px;
+}
+
+
+/*Footer section*/
+.footer_section {
+    display: block;
+    font-family: Montserrat;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/images/footer.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #614627;
+    padding: 40px 0;
+}
+
+
+.somelist_element {
+    margin-top: 5px;
+    list-style-type: none;
+    display: inline-flex;
+    text-align: center;
+
+    padding-bottom: 40px;
+    padding-left: 65px;
+}
+
+
+
+
+.contactus_section {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Montserrat;
+
+}
+
+
+
+.follow {
+    text-align: center;
+    padding-right: 24px;
+
+}
+
+.some_icon {
+    color: #614627;
+    font-size: 26px;
+}
+
+
+
+.someplatforms_section {
+    margin-bottom: 15px;
+    line-height: 0.5;
+    display: block;
+
+
+
+}
+
+
+/*Subscribe section*/
+.email-box {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.email-box i {
+    background: #614627;
+    width: 38px;
+    line-height: 40px;
+    justify-content: center;
+    padding: 0 9px;
+    border: 1px solid #614627;
+
+}
+
+.textbox,
+btnsubscribe {
+    border: none;
+    font-family: Montserrat;
+
+}
+
+.textbox {
+    width: 0px;
+    padding: 0;
+    border-right: 1px solid #614627;
+    transition: 0.6s;
+    font-family: Montserrat;
+}
+
+.email-box:hover > .textbox,
+.textbox:focus {
+    width: 260px;
+    padding: 0 10px;
+}
+
+.btnsubscribe {
+    background: #614627;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid #614627;
+    width: 120px;
+    font-family: Montserrat;
+}
+
+.newsletter {
+    margin: 20px 0 20px 0;
+    text-align: center;
+
+
+
+}
+
+
+/*Write us section*/
+
+
+.btncontact {
+    display: flex;
+    font-size: 16px;
+    height: 40px;
+    text-decoration: none;
+    justify-content: center;
+    border: 2px solid #614627;
+    border-radius: 15px;
+    background: #F2C94C;
+    overflow: hidden;
+    transition: 1s all ease;
+    color: #614627;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    font-family: Montserrat;
+    padding-top: 7px;
+
+
+}
+
+.contact_form {
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin: auto;
+
+}
+
+.btncontact:hover {
+    background: transparent;
+    color: white;
+    background-color: #614627;
+}
+
+
+@media only screen and (min-width: 1037px) {
+
+    /*AD on wide screen*/
+    .ad_container {
+        position: relative;
+        max-width: 100%;
+        padding-top: 65px;
+        background-image: url(/images/triangles.jpg);
+        background-size: 500px 300px;
+    }
+
+    .ad_image {
+        display: block;
+        max-width: 70%;
+        padding-top: 65px;
+        margin: auto;
+    }
+
+    .overlay {
+        display: none;
+    }
+
+    /*Competition section-homepage on wide screen*/
+
+    .subheading_text {
+        color: #614627;
+        text-transform: uppercase;
+        font-family: Montserrat;
+    }
+
+    .heading_text {
+        color: #614627;
+        font-size: 24px;
+        font-family: Montserrat;
+        padding-bottom: 12px;
+        padding-top: 20px;
+    }
+
+    .homepage_text {
+        font-size: 16px;
+        font-family: Montserrat;
+        color: #614627;
+        padding: 12px 12px;
+
+    }
+
+    .homepage_image {
+        width: 70%;
+    }
+
+    .details_container {
+        display: block;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(/images/triangles.jpg);
+        background-size: 500px 300px;
+        flex-wrap: wrap;
+        margin: 35px 0;
+        background-color: white;
+        border: 1px solid #F2C94C;
+
+    }
+
+    .homepage_container {
+        padding: 100px 24px 16px 24px;
+        margin: 35px 16px 35px 16px;
+        background-image: url(/images/triangles.jpg);
+        background-size: 500px 300px;
+        width: 320px;
+        text-align: center;
+        line-height: 2;
+        display: inline-block;
+        border: 1px solid #F2C94C;
+
+    }
+
+    .home_section {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+
+
+    }
+
+    .homepage_text {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border: 3px dotted #614627;
+        border-top: 5px;
+        border-bottom: 5px;
+    }
+
+
+    /*Personalised Toblerone*/
+
+    .details2_container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 35px 0;
+        position: relative;
+    }
+
+    .gift_image {
+        width: 40%;
+
+    }
+
+    .gift_text {
+        position: absolute;
+        background: none;
+        padding-left: 25px;
+        word-spacing: 20px;
+        font-size: 32px;
+    }
+
+
+    .addyourmessage_text {
+        padding-top: 150px;
+        font-size: 18px;
+    }
+
+
+    /*Footer section on wide screen*/
+    .footer_section {
+        display: flex;
+        font-family: Montserrat;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        background-image: url(/images/footerdesktop.png);
+        background-size: cover;
+        background-position: center;
+        color: #614627;
+        padding: 10px 0;
+        height: 40%;
+    }
+
+    /*Social media section*/
+    .somelist_element {
+        margin-top: 5px;
+        list-style-type: none;
+        display: inline-block;
+        flex-direction: row;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+    }
+
+    .follow {
+        text-align: center;
+
+    }
+
+    .some_icon {
+        color: #614627;
+        font-size: 26px;
+    }
+
+
+
+    .someplatforms_section {
+        margin-bottom: 15px;
+        line-height: 1;
+        display: inline-block;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+
+
+    /*Subscribe section*/
+    .email-box {
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        color: white;
+
+    }
+
+    .email-box i {
+        background: #614627;
+        width: 38px;
+        line-height: 40px;
+        justify-content: center;
+        padding: 0 9px;
+        border: 1px solid #614627;
+
+    }
+
+    .textbox,
+    btnsubscribe {
+        border: none;
+        font-family: Montserrat;
+
+    }
+
+    .textbox {
+        width: 0px;
+        padding: 0;
+        border-right: 1px solid #614627;
+        transition: 0.6s;
+        font-family: Montserrat;
+    }
+
+    .email-box:hover > .textbox,
+    .textbox:focus {
+        width: 260px;
+        padding: 0 10px;
+    }
+
+    .btnsubscribe {
+        background: #614627;
+        color: white;
+        padding: 0 10px;
+        text-transform: uppercase;
+        cursor: pointer;
+        border: 1px solid #614627;
+        width: 120px;
+        font-family: Montserrat;
+    }
+
+    .newsletter {
+        margin: 20px 0 20px 0;
+        text-align: center;
+        padding-right: 14%;
+
+
+
+
+    }
+
+    /*Contactus section*/
+    .contactus_section {
+        line-height: 1.5;
+        margin-bottom: 15px;
+        text-align: center;
+        font-family: Montserrat;
+        padding-left: 60px;
+
+    }
+
+    /*Write us section*/
+
+
+    .btncontact {
+        display: flex;
+        font-size: 16px;
+        height: 40px;
+        justify-content: center;
+        text-decoration: none;
+        justify-content: center;
+        border: 2px solid #614627;
+        border-radius: 15px;
+        background: #F2C94C;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: 1s all ease;
+        color: black;
+        text-transform: uppercase;
+        cursor: pointer;
+        text-align: center;
+        font-family: Montserrat;
+        padding-top: 7px;
+
+
+    }
+
+    .contact_form {
+        width: 150px;
+        display: block;
+        flex-direction: row;
+        text-align: center;
+
+
+    }
+
+    .btncontact:hover {
+        background: transparent;
+        color: white;
+        background-color: #614627;
+    }

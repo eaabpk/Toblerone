@@ -1,0 +1,243 @@
+.headline_competition {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    color: #614627;
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+    margin-top: 80px;
+    line-height: 2.5;
+    width: 100%;
+    justify-content: center;
+    background-image: url(/images/christmasframe.png);
+    background-size: cover;
+    background-position: left;
+    border: solid 2px #614627;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.win {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1;
+    margin-top: 15px;
+}
+
+.toblerone {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1;
+    background-color: #F2C94C;
+    background: linear-gradient(to bottom, #fceabb, #f8b500);
+    display: table;
+    justify-content: center;
+    color: #614627;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+
+
+}
+
+
+
+.header {
+    font-family: Montserrat;
+    font-size: 18px;
+    padding-top: 20px;
+    border: solid 2px #614627;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    padding: 10px 10px 10px 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.steps_image {
+    width: 25%;
+    text-align: center;
+}
+
+.icon_text {
+    font-size: 18px;
+    font-family: Montserrat;
+    color: #614627;
+
+}
+
+.steps {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*issue
+.steps_icon {
+    width: 30%;
+}
+*/
+
+.icon_text1 {
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 1;
+    background-color: #F2C94C;
+    display: table;
+    justify-content: center;
+    color: #614627;
+    padding: 5px;
+    margin: auto;
+
+}
+
+.stepdetails_container {
+    border: solid 2px #614627;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    padding: 10px 10px 50px 10px;
+    margin-top: 15px;
+    background-image: url(../images/triangles.jpg);
+    background-repeat: contain;
+    background-size: 900px 500px;
+}
+
+.instagram_button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e1306c;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 7px;
+    background: linear-gradient(#e66465, #9198e5);
+
+
+}
+
+.instagram_button:hover {
+    background-color: #614627;
+    color: #614627;
+    border: 1px solid #614627;
+    transition: all .2s ease-out;
+
+}
+
+.instagram {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1037px) {
+    .headline_competition {
+        font-family: Montserrat;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 16px;
+        color: #614627;
+        text-align: center;
+        padding: 40px 20px 20px 20px;
+        margin-top: 80px;
+        margin-left: 24%;
+        line-height: 2.5;
+        width: 50%;
+        justify-content: center;
+        background-image: url(/images/christmasframe.png);
+        background-size: 400px 200px;
+        background-position: top;
+        border: solid 2px #FB310F;
+        border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    }
+
+    .win {
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 300;
+        line-height: 2;
+        background: white;
+    }
+
+    .toblerone {
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 300;
+        line-height: 2;
+        background-color: #F2C94C;
+        display: table;
+        justify-content: center;
+        color: #614627;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: auto;
+
+
+    }
+
+    .steps_image {
+    width: 20%;
+    text-align: center;
+}
+
+    .steps {
+        display: inline-block;
+        text-align: center;
+        flex-direction: column;
+        padding-top: 20px;
+        margin-left: 23%;
+        background: white;
+    }
+
+
+    .stepdetails_container {
+        border: solid 2px #614627;
+        border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+        padding: 10px 10px 10px 10px;
+        margin-top: 15px;
+        background-image: none;
+    }
+
+    .wrapper_container {
+        width: 65%;
+        margin: 90px auto;
+
+
+    }
+
+    .home_section {
+        display: block;
+        justify-content: center;
+        background: white;
+    }
+
+    .homepage_image {
+        width: 50%;
+        background: white;
+    }
+
+    .details_container {
+        background: white;
+        border: none;
+
+    }
+
+    .homepage_container {
+        padding: 16px 24px 16px 24px;
+        margin: 0 16px 16px 16px;
+        background-color: white;
+        width: 320px;
+        text-align: center;
+        line-height: 1.5;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+
+}

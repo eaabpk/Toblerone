@@ -1,0 +1,103 @@
+.wrapper_container {
+    margin: 20px 30px 30px;
+    background: white;
+
+}
+
+.background {
+
+    background-image: url('/images/triangles.jpg');
+    background-repeat: auto;
+    background-size: 900px 500px;
+
+}
+
+.history_article {
+    font-family: Montserrat;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.ourhistory_image {
+    max-width: 100%;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+.page_headline {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: #614627;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    margin-top: 80px;
+    line-height: 2.5;
+    width: 100%;
+    justify-content: center;
+    background: #F2C94C;
+    border: solid 2px #614627;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+
+
+}
+
+/*styling the paragraphs*/
+.paragraphbox {
+    border: solid 2px #614627;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    padding: 10px 10px 10px 10px;
+}
+
+/*new footer for Our history subpage*/
+/*
+.footer_section1 {
+    display: block;
+    font-family: Montserrat;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/Mobilemenu/images/footer_ourhistory.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #614627;
+    padding: 40px 0;
+}
+*/
+@media only screen and (min-width: 1037px) {
+
+
+    .wrapper_container {
+        width: 65%;
+        margin: 90px auto;
+
+    }
+
+    .paragraphbox {
+        font-family: Montserrat;
+        font-size: 16px;
+        background: white;
+        padding-top: 20px;
+        border: 0.1px;
+        text-align: justify;
+
+    }
+
+    .background {
+
+        background-image: url('/images/triangles.jpg');
+        background-repeat: contain;
+        background-size: 900px 500px;
+
+    }
+
+    .ourhistory_image {
+        width: 55%;
+        justify-content: center;
+        margin-left: 22%;
+        margin-bottom: 20%;
+    }
+
+
+}

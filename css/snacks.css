@@ -1,0 +1,184 @@
+.snacks_headline {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    line-height: 2.5;
+    width: 100%;
+    margin-top: 15%;
+    background: #b4426d;
+    border: solid 2px #614627;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.snackrecipetitle {
+    font-size: 30px;
+    background: white;
+    color: #b4426d;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.main_image {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+
+.ingredients_header {
+    font-family: Montserrat;
+    font-size: 18px;
+    padding-top: 20px;
+    border: solid 2px #b4426d;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    padding: 10px 10px 10px 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+    margin: 0 7px 0 7px;
+}
+
+
+.preparation {
+    display: block;
+    text-align: left;
+    letter-spacing: 2px;
+    padding-left: 80px;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+.method {
+    margin: auto;
+    font-weight: bold;
+    color: #b4426d;
+}
+
+
+
+.recipe_icons {
+    width: 25px;
+    margin: auto;
+    margin-right: 15px;
+    color: #b4426d;
+}
+
+.ingredients {
+    display: inline-block;
+    /*space between the bullet and the text*/
+    list-style-type: circle;
+    text-align: left;
+    line-height: 1.5;
+    padding-left: 20px;
+    font-family: Montserrat;
+}
+
+
+.share_icon {
+    color: #b4426d;
+    font-size: 22px;
+    padding-top: 10px;
+
+}
+
+.share_text {
+    text-transform: uppercase;
+    color: #614627;
+    font-family: Montserrat;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+
+.shareicons_container {
+    margin-top: 5px;
+    border-top: 1px solid #b4426d;
+    margin-left: 10px;
+    width: 30%;
+    margin-bottom: 80px;
+}
+
+
+@media only screen and (min-width: 1037px) {
+
+    .snacks_headline {
+        font-family: Montserrat;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 24px;
+        color: white;
+        justify-content: center;
+        width: 50%;
+        margin: auto;
+        margin-top: 10%;
+        background: #b4426d;
+        border: solid 2px #614627;
+        border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    }
+
+    .recipes_image {
+        width: 100%;
+        margin: auto;
+        margin-top: 15%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .snackrecipetitle {
+        font-size: 36px;
+        margin-top: 40px;
+        margin-left: 35%;
+
+    }
+
+    .main_image {
+
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+
+    }
+
+    .preparation {
+        display: flex;
+        text-align: center;
+        margin: auto;
+        font-size: 16px;
+        justify-content: space-between;
+    }
+
+    .ingredients_header {
+
+        font-size: 22px;
+        width: 50%;
+        margin-top: 30px;
+        margin-left: 10%;
+
+    }
+
+    .ingredients {
+
+        margin-right: 25%;
+    }
+
+
+    .stepdetails_container {
+        border: solid 2px #614627;
+        border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+        padding: 10px 10px 10px 10px;
+        margin-top: 15px;
+        margin-right: 25%;
+
+
+    }
+}
