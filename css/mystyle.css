@@ -174,7 +174,7 @@
 .homepage_container {
     padding: 25px 24px 16px 24px;
     margin: 5px 16px 35px 16px;
-    background-image: url(/images/triangles.jpg);
+    background-image: url(images/triangles.jpg);
     background-size: 500px 300px;
     width: 320px;
     text-align: center;
@@ -299,7 +299,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-image: url(/images/footer.jpg);
+    background-image: url(images/footer.jpg);
     background-size: cover;
     background-position: center;
     color: #614627;
@@ -459,7 +459,7 @@ btnsubscribe {
         position: relative;
         max-width: 100%;
         padding-top: 65px;
-        background-image: url(/images/triangles.jpg);
+        background-image: url(images/triangles.jpg);
         background-size: 500px 300px;
     }
 
@@ -506,7 +506,7 @@ btnsubscribe {
         display: block;
         justify-content: center;
         flex-direction: column;
-        background-image: url(/images/triangles.jpg);
+        background-image: url(images/triangles.jpg);
         background-size: 500px 300px;
         flex-wrap: wrap;
         margin: 35px 0;
@@ -518,7 +518,7 @@ btnsubscribe {
     .homepage_container {
         padding: 100px 24px 16px 24px;
         margin: 35px 16px 35px 16px;
-        background-image: url(/images/triangles.jpg);
+        background-image: url(images/triangles.jpg);
         background-size: 500px 300px;
         width: 320px;
         text-align: center;
@@ -582,7 +582,7 @@ btnsubscribe {
         justify-content: space-around;
         flex-direction: row;
         align-items: center;
-        background-image: url(/images/footerdesktop.png);
+        background-image: url(images/footerdesktop.png);
         background-size: cover;
         background-position: center;
         color: #614627;

@@ -6,7 +6,7 @@
 
 .background {
 
-    background-image: url('/images/triangles.jpg');
+    background-image: url('../images/triangles.jpg');
     background-repeat: auto;
     background-size: 900px 500px;
 
@@ -86,7 +86,7 @@
 
     .background {
 
-        background-image: url('/images/triangles.jpg');
+        background-image: url('../images/triangles.jpg');
         background-repeat: contain;
         background-size: 900px 500px;
 
